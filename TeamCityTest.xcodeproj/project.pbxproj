@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1A7FE163ECD41F0904571DEC /* Pods_TeamCityTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2B737B3B445C45241E76DD /* Pods_TeamCityTest.framework */; };
 		C9B3F8531F9C298FE506E5A1 /* Pods_TeamCityTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D7D2D00E1A27375A1B5958 /* Pods_TeamCityTestUITests.framework */; };
+		CA739DA3203ACAEA00C283D8 /* TeamCityUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA739DA2203ACAEA00C283D8 /* TeamCityUnit.swift */; };
 		CA961DE0203ABD5700FEA3A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA961DDF203ABD5700FEA3A8 /* AppDelegate.swift */; };
 		CA961DE2203ABD5700FEA3A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA961DE1203ABD5700FEA3A8 /* ViewController.swift */; };
 		CA961DE5203ABD5700FEA3A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA961DE3203ABD5700FEA3A8 /* Main.storyboard */; };
@@ -18,6 +19,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CA739DA5203ACAEA00C283D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA961DD4203ABD5700FEA3A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA961DDB203ABD5700FEA3A8;
+			remoteInfo = TeamCityTest;
+		};
 		CA961DF1203ABD5700FEA3A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CA961DD4203ABD5700FEA3A8 /* Project object */;
@@ -31,6 +39,9 @@
 		1BFD23249CF54FA3878252A2 /* Pods-TeamCityTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamCityTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamCityTestUITests/Pods-TeamCityTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2F2B737B3B445C45241E76DD /* Pods_TeamCityTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamCityTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C840DA8884CB236982F2B958 /* Pods-TeamCityTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamCityTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamCityTest/Pods-TeamCityTest.debug.xcconfig"; sourceTree = "<group>"; };
+		CA739DA0203ACAEA00C283D8 /* TeamCityUnit.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamCityUnit.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA739DA2203ACAEA00C283D8 /* TeamCityUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCityUnit.swift; sourceTree = "<group>"; };
+		CA739DA4203ACAEA00C283D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA961DDC203ABD5700FEA3A8 /* TeamCityTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamCityTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA961DDF203ABD5700FEA3A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA961DE1203ABD5700FEA3A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CA739D9D203ACAEA00C283D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CA961DD9203ABD5700FEA3A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -77,11 +95,21 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CA739DA1203ACAEA00C283D8 /* TeamCityUnit */ = {
+			isa = PBXGroup;
+			children = (
+				CA739DA2203ACAEA00C283D8 /* TeamCityUnit.swift */,
+				CA739DA4203ACAEA00C283D8 /* Info.plist */,
+			);
+			path = TeamCityUnit;
+			sourceTree = "<group>";
+		};
 		CA961DD3203ABD5700FEA3A8 = {
 			isa = PBXGroup;
 			children = (
 				CA961DDE203ABD5700FEA3A8 /* TeamCityTest */,
 				CA961DF3203ABD5700FEA3A8 /* TeamCityTestUITests */,
+				CA739DA1203ACAEA00C283D8 /* TeamCityUnit */,
 				CA961DDD203ABD5700FEA3A8 /* Products */,
 				487C5B445B847C51B3D68C45 /* Pods */,
 				E5A977A2E9D4FED9F5723837 /* Frameworks */,
@@ -93,6 +121,7 @@
 			children = (
 				CA961DDC203ABD5700FEA3A8 /* TeamCityTest.app */,
 				CA961DF0203ABD5700FEA3A8 /* TeamCityTestUITests.xctest */,
+				CA739DA0203ACAEA00C283D8 /* TeamCityUnit.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +160,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CA739D9F203ACAEA00C283D8 /* TeamCityUnit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA739DA9203ACAEA00C283D8 /* Build configuration list for PBXNativeTarget "TeamCityUnit" */;
+			buildPhases = (
+				CA739D9C203ACAEA00C283D8 /* Sources */,
+				CA739D9D203ACAEA00C283D8 /* Frameworks */,
+				CA739D9E203ACAEA00C283D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA739DA6203ACAEA00C283D8 /* PBXTargetDependency */,
+			);
+			name = TeamCityUnit;
+			productName = TeamCityUnit;
+			productReference = CA739DA0203ACAEA00C283D8 /* TeamCityUnit.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		CA961DDB203ABD5700FEA3A8 /* TeamCityTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA961DF9203ABD5700FEA3A8 /* Build configuration list for PBXNativeTarget "TeamCityTest" */;
@@ -182,6 +229,11 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Кирилл Володин";
 				TargetAttributes = {
+					CA739D9F203ACAEA00C283D8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA961DDB203ABD5700FEA3A8;
+					};
 					CA961DDB203ABD5700FEA3A8 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -208,11 +260,19 @@
 			targets = (
 				CA961DDB203ABD5700FEA3A8 /* TeamCityTest */,
 				CA961DEF203ABD5700FEA3A8 /* TeamCityTestUITests */,
+				CA739D9F203ACAEA00C283D8 /* TeamCityUnit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CA739D9E203ACAEA00C283D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CA961DDA203ABD5700FEA3A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -335,6 +395,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CA739D9C203ACAEA00C283D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA739DA3203ACAEA00C283D8 /* TeamCityUnit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CA961DD8203ABD5700FEA3A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -355,6 +423,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		CA739DA6203ACAEA00C283D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA961DDB203ABD5700FEA3A8 /* TeamCityTest */;
+			targetProxy = CA739DA5203ACAEA00C283D8 /* PBXContainerItemProxy */;
+		};
 		CA961DF2203ABD5700FEA3A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CA961DDB203ABD5700FEA3A8 /* TeamCityTest */;
@@ -382,6 +455,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CA739DA7203ACAEA00C283D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BZ5C8942NC;
+				INFOPLIST_FILE = TeamCityUnit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Volodin.TeamCityUnit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeamCityTest.app/TeamCityTest";
+			};
+			name = Debug;
+		};
+		CA739DA8203ACAEA00C283D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BZ5C8942NC;
+				INFOPLIST_FILE = TeamCityUnit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Volodin.TeamCityUnit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeamCityTest.app/TeamCityTest";
+			};
+			name = Release;
+		};
 		CA961DF7203ABD5700FEA3A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -558,6 +663,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CA739DA9203ACAEA00C283D8 /* Build configuration list for PBXNativeTarget "TeamCityUnit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA739DA7203ACAEA00C283D8 /* Debug */,
+				CA739DA8203ACAEA00C283D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CA961DD7203ABD5700FEA3A8 /* Build configuration list for PBXProject "TeamCityTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

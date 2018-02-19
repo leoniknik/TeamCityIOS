@@ -4,7 +4,7 @@ xcrun simctl erase all
 pod install
 # Unit tests
 xctool \
--scheme TeamCityTest \
+-scheme TeamCityUnit \
 -workspace TeamCityTest.xcworkspace \
 -destination "platform=iOS Simulator,name=iPhone 8,OS=11.2" \
 -sdk iphonesimulator \

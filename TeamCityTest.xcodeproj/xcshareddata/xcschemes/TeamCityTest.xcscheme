@@ -39,6 +39,16 @@
                ReferencedContainer = "container:TeamCityTest.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CA739D9F203ACAEA00C283D8"
+               BuildableName = "TeamCityUnit.xctest"
+               BlueprintName = "TeamCityUnit"
+               ReferencedContainer = "container:TeamCityTest.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
