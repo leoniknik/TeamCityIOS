@@ -1,3 +1,4 @@
+git clean -fd
 rm -rf ~/Library/Developer/Xcode/DerivedData/TeamCityTest
 xcrun simctl erase all
 # Unit tests
