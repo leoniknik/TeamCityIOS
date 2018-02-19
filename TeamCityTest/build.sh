@@ -8,5 +8,4 @@ xctool \
 -destination "platform=iOS Simulator,name=iPhone 8,OS=10.0" \
 -sdk iphonesimulator \
 -reporter junit:test-results/TEST-UnitTests.xml \
--reporter pretty \
-clean test
+-reporter pretty
