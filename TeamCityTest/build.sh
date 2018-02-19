@@ -5,7 +5,7 @@ xcrun simctl erase all
 xctool \
 -scheme TeamCityTestUITests \
 -workspace TeamCiryTest.xcworkspace \
--destination "platform=iOS Simulator,name=iPhone 8,OS=10.0" \
+-destination "platform=iOS Simulator,name=iPhone 8,OS=11.2" \
 -sdk iphonesimulator \
 -reporter junit:test-results/TEST-UnitTests.xml \
 -reporter pretty
