@@ -10,3 +10,4 @@ xctool \
 -sdk iphonesimulator \
 -reporter junit:test-results/TEST-UnitTests.xml \
 -reporter pretty
+run-tests
