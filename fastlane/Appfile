@@ -4,3 +4,7 @@
 
 # For more information about the Appfile, see:
 #     https://docs.fastlane.tools/advanced/#appfile
+
+
+app_identifier "Volodin.TeamCityTest" 
+apple_id "volodin.kirill.a@gmail.com"
