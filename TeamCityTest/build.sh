@@ -7,5 +7,5 @@ xctool \
 -scheme TeamCityUnit \
 -workspace TeamCityTest.xcworkspace \
 -destination "platform=iOS Simulator,name=iPhone 8,OS=11.2" \
--sdk iphonesimulator
+-sdk iphonesimulator \
 run-tests
