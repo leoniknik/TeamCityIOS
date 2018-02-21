@@ -21,6 +21,7 @@ class TeamCityTestUITests: XCTestCase {
     }
     
     func testExample() {
+        
     }
     
 }
